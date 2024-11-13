@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
